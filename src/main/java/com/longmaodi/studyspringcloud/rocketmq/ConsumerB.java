@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
  * @date: 2021/10/29 17:19
  **/
 @Slf4j
-@Component
+//@Component
 @RocketMQMessageListener(
         topic = RocketMqController.TOPIC,
         consumerGroup = "${spring.application.name}" + "B" + RocketMqController.TOPIC,
